@@ -1,6 +1,6 @@
 header{
-    position: relative;
-    background-color: blueviolet;
+position: relative;
+background-color: blueviolet;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -12,8 +12,6 @@ width: 100%;
 .ondas{
     position: absolute;
     top:0;
-    left: 0;
-    right: 0;
 }
 
 
@@ -23,7 +21,7 @@ animation: ondinha1 3s ease-in-out infinite alternate;
 
 @keyframes ondinha1{
     from{
-        transform: translateX(-2000px);
+        transform: translateX(830px);
     }
 }
 
@@ -33,7 +31,7 @@ animation: ondinha1 3s ease-in-out infinite alternate;
     
     @keyframes ondinha2{
         from{
-            transform: translateX(-1800px);
+            transform: translateX(-700px);
         }
     }
 
@@ -43,6 +41,6 @@ animation: ondinha1 3s ease-in-out infinite alternate;
         
         @keyframes ondinha3{
             from{
-                transform: translateX(-1600px);
+                transform: translateX(200px);
             }
         }
